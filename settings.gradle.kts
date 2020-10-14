@@ -1,1 +1,1 @@
-rootProject.name = "yapiPoster"
+rootProject.name = "YapiPoster"

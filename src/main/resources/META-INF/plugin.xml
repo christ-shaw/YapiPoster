@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.github.christ-shaw.yapiposter</id>
-    <name>yapiPoster</name>
+    <name>YapiPoster</name>
     <vendor>christ-shaw</vendor>
 
     <!-- Product and plugin compatibility requirements -->

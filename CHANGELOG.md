@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# yapiPoster Changelog
+# YapiPoster Changelog
 
 ## [Unreleased]
 ### Added
