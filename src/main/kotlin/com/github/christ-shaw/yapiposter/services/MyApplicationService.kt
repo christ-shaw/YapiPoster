@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.christ-shaw.yapiposter.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.christ-shaw.yapiposter.MyBundle
 
 class MyApplicationService {
 
