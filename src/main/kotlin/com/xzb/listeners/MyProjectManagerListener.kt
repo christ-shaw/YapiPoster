@@ -1,8 +1,13 @@
-package com.github.christ-shaw.yapiposter.listeners
+package com.xzb.listeners
+
+
+
+
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.christ-shaw.yapiposter.services.MyProjectService
+import com.xzb.services.MyProjectService
+
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

@@ -1,7 +1,8 @@
-package com.github.christ-shaw.yapiposter.services
 
+package com.xzb.services
 import com.intellij.openapi.project.Project
-import com.github.christ-shaw.yapiposter.MyBundle
+import com.xzb.MyBundle
+
 
 class MyProjectService(project: Project) {
 

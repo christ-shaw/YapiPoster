@@ -8,12 +8,21 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.christ-shaw.yapiposter.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.christ-shaw.yapiposter.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.xzb.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.xzb.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.christ-shaw.yapiposter.listeners.MyProjectManagerListener"
+        <listener class="com.xzb.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Sample Calendar" secondary="true" icon="AllIcons.General.Modified" anchor="right"
+                    factoryClass="com.xzb.toolwindow.MyToolWindowFactory"/>
+    </extensions>
+    <!-- Add Settings Dialog that is similar to what ShowKotlinUIDSLSampleAction does. -->
+<!--    <extensions defaultExtensionNs="com.intellij">-->
+<!--        <applicationConfigurable instance="setting.SettingConfiguration" />-->
+<!--    </extensions>-->
 </idea-plugin>

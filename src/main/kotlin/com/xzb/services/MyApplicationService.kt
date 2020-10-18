@@ -1,6 +1,6 @@
-package com.github.christ-shaw.yapiposter.services
+package com.xzb.services
+import com.xzb.MyBundle
 
-import com.github.christ-shaw.yapiposter.MyBundle
 
 class MyApplicationService {
 

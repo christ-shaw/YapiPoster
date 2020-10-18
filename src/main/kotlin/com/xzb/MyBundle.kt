@@ -1,4 +1,4 @@
-package com.github.christ-shaw.yapiposter
+package com.xzb
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls
